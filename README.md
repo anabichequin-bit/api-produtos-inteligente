@@ -16,28 +16,27 @@ Este projeto é uma API desenvolvida em **Django + Django REST Framework** para 
 
 git clone https://github.com/anabichequin-bit/api-produtos-inteligente.git
 cd api-produtos-inteligente
-Criar e ativar o ambiente virtual (opcional)
 
+Criar e ativar o ambiente virtual (opcional)
 Copiar código
 python -m venv venv
 # Windows
 venv\Scripts\activate
 # Linux/macOS
 source venv/bin/activate
-Instalar dependências
 
+Instalar dependências
 Copiar código
 pip install -r requirements.txt
+
 Rodar as migrations
-
-
 Copiar código
 python manage.py migrate
+
 Rodar o servidor
-
-
 Copiar código
 python manage.py runserver
+
 Acessar a API
 
 Endpoints: http://127.0.0.1:8000/api/items/
