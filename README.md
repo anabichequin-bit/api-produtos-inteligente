@@ -25,20 +25,19 @@ venv\Scripts\activate
 # Linux/macOS
 source venv/bin/activate
 
-Instalar dependências
-Copiar código
+Instalar dependências - 
+Copiar código - 
 pip install -r requirements.txt
 
-Rodar as migrations
-Copiar código
+Rodar as migrations -
+Copiar código -
 python manage.py migrate
 
-Rodar o servidor
-Copiar código
+Rodar o servidor -
+Copiar código - 
 python manage.py runserver
 
 Acessar a API
-
 Endpoints: http://127.0.0.1:8000/api/items/
 
 Documentação Swagger: http://127.0.0.1:8000/swagger/
